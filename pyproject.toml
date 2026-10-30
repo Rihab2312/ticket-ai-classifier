@@ -1,0 +1,10 @@
+[project]
+name = "ticket-ai-classifier"
+version = "0.1.0"
+description = "Petit module d'IA pour classer des tickets d'assistance (projet d'apprentissage)."
+requires-python = ">=3.9"
+dependencies = ["scikit-learn", "flask", "joblib"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
