@@ -1,11 +1,9 @@
 # ticket-ai-classifier
 
-Petit projet d'apprentissage : un **classifieur de tickets d'assistance** en Python.
+Petit projet : un **classifieur de tickets d'assistance** en Python.
 Il lit le texte d'un ticket (« La facture contient une erreur de TVA ») et prédit sa
 catégorie (`facturation`, `livraison`, `acces`, `bug`), avec un score de confiance.
 
-Ce n'est **pas** un module Odoo : c'est un projet Python indépendant qui s'intègre
-facilement à Odoo (ou à tout autre système) par **API REST**.
 
 ## Ce que ce projet démontre
 
