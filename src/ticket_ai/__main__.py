@@ -8,7 +8,6 @@ import json
 from .data import TRAINING_DATA
 from .model import TicketClassifier
 
-
 def main() -> None:
     parser = argparse.ArgumentParser(description="Classer un ticket d'assistance.")
     parser.add_argument("text", help="Le texte du ticket entre guillemets")
